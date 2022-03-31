@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.main{
+   height: 50px;
+   width: 50px;
+   background-color: red;
+   padding: 10px;
+  
+
+}
+
+
+
+.sample{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    padding: 10px;
+    
+
+}
+.parent{
+    background-color: grey;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

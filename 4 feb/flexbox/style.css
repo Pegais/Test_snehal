@@ -1,0 +1,70 @@
+*{
+    box-sizing:border-box ;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #000033;
+    height: 60px;
+    display: flex;
+    
+}
+.image img{
+    height:40px ;
+    /* padding: 5px; */
+}
+.image{
+    /* background-color: aqua; */
+    width: 90px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address{
+    height:60px ;
+    width: 90px;
+    /* background-color: yellow; */
+    display: flex;
+    /* padding: 2px; */
+    justify-content: center;align-items: center;
+    margin: 5px;
+    
+}
+.content{
+    margin-left: 3px;
+}
+.search-bar{
+    margin-left:5px;
+    /* background-color: aqua; */
+    height: 60px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+   /* background-color: red; */
+   height:40px;
+   width: 800px;
+}
+.search input{
+    width:800px ;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+.icon{
+    /* background-color: yellow; */
+    /* height: 20px;
+    width: 20px; */
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+
+}
